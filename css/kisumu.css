@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    background: url();
+.bg{
+    background: url(../assets/kisumh.jpg);
     width: 1920px;
+    height: 600px;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
