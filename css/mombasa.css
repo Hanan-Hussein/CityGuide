@@ -41,11 +41,93 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 800;
 font-size: 100px;
-line-height: 70px;
+line-height: 76px;
 letter-spacing: 0.1em;
 color: white;
 }
 .mombasa-text{
     
     color: #FF5108;
+}
+
+#history {
+    position: absolute;
+    width: 229px;
+    height: 77px;
+    left: 181px;
+    top: 1347px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 51px;
+    line-height: 76px;
+    /* identical to box height */
+    
+    letter-spacing: 0.1em;
+    
+    color: #FFFFFF; 
+}
+
+#hp1 {
+position: absolute;
+width: 693px;
+height: 339px;
+left: 181px;
+top: 1491px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.35em;
+
+color: #FFFFFF;
+}
+
+#hp2 {
+position: absolute;
+width: 693px;
+height: 339px;
+left: 181px;
+top: 1865px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.35em;
+
+color: #FFFFFF;
+}
+
+#histimg1{
+position: absolute;
+width: 395px;
+height: 269px;
+left: 1030px;
+top: 1424px;
+}
+#histimg2{
+position: absolute;
+width: 339px;
+height: 412px;
+left: 1468px;
+top: 1424px;
+}
+#histimg3{
+    position: absolute;
+width: 395px;
+height: 410px;
+left: 1030px;
+top: 1763px;
+}
+#histimg4{
+position: absolute;
+width: 351px;
+height: 302px;
+left: 1456px;
+top: 1871px;
 }
