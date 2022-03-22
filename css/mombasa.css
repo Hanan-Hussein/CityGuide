@@ -1,0 +1,51 @@
+.square1 {
+    position: absolute;
+    width: 392px;
+    height: 313px;
+    left: 1452px;
+    top: 454px;
+    z-index: 1;
+
+    background: #D03F00;
+}
+.square2{
+
+    position: absolute;
+    width: 392px;
+    height: 313px;
+    left: 1213px;
+    top: 229px;
+    z-index: 1;
+    background: #D03F00;
+} 
+.welcome-image {
+
+position: absolute;
+width: 550px;
+height: 471px;
+left: 1257px;
+top: 263px;
+z-index: 3;
+
+}
+
+.welc {
+position: relative;
+width: 415px;
+height: 203px;
+left: 230px;
+top: 251px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 100px;
+line-height: 70px;
+letter-spacing: 0.1em;
+color: white;
+}
+.mombasa-text{
+    
+    color: #FF5108;
+}
