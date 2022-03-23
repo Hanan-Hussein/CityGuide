@@ -23,13 +23,7 @@
     color: black;
 }
 
-#welcome {
-    position: absolute;
-    width: 415px;
-    height: 203px;
-    left: 230px;
-    top: 251px;
-}
+
 .square1 {
     position: absolute;
     width: 392px;
@@ -72,11 +66,12 @@ z-index: 3;
     color: #FFFFFF;
 }
 #welcomep{
-    font-family: 'Roboto';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
+    letter-spacing: 0.2em;
 
     color: #FFFFFF;
 }
@@ -90,8 +85,7 @@ z-index: 3;
 
 #history {
     position: absolute;
-    width: 229px;
-    height: 77px;
+   
     left: 181px;
     top: 1347px;
     
@@ -141,6 +135,16 @@ letter-spacing: 0.35em;
 
 color: #FFFFFF;
 }
+.rectangle{
+    position: absolute;
+    width: 552px;
+    height: 988px;
+    left: 1159px;
+    top: 1273px;
+    z-index: 1;
+
+    background: #D03F00;
+}
 
 #histimg1{
 position: absolute;
@@ -148,6 +152,7 @@ width: 395px;
 height: 269px;
 left: 1030px;
 top: 1424px;
+z-index: 3;
 }
 #histimg2{
 position: absolute;
@@ -155,6 +160,7 @@ width: 339px;
 height: 412px;
 left: 1468px;
 top: 1424px;
+z-index: 3;
 }
 #histimg3{
     position: absolute;
@@ -162,6 +168,8 @@ width: 395px;
 height: 410px;
 left: 1030px;
 top: 1763px;
+z-index: 3;
+
 }
 #histimg4{
 position: absolute;
@@ -169,6 +177,7 @@ width: 351px;
 height: 302px;
 left: 1456px;
 top: 1871px;
+z-index: 3;
 }
 
 /* attraction section  */
