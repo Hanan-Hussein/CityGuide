@@ -15,3 +15,7 @@
     column-gap: 10px;
     height: 629px;
 }
+body{
+    background-color: white;
+    color: black;
+}
