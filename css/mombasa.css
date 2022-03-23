@@ -1,3 +1,10 @@
+#welcome {
+    position: absolute;
+    width: 415px;
+    height: 203px;
+    left: 230px;
+    top: 251px;
+}
 .square1 {
     position: absolute;
     width: 392px;
