@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.handImg {
+    height: 50vh;
+}
+
+.hand {
+    position: relative;
+    z-index: 2;
+}
+
+.rectFrame {
+    height: 20vh;
+    position: absolute;
+    top: -0.9rem;
+    left: -0.5rem;
+    z-index: -1;
+}
+
+.vector1 {
+    height: 20vh;
+    position: absolute;
+    bottom: -3rem;
+    right: 12rem;
+    z-index: -1;
+}
