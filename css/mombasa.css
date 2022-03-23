@@ -282,6 +282,62 @@ background: rgba(255, 255, 255, 0.93);
 border-radius: 0px 0px 27px 27px;
 }
 
+#hackh1 {
+    position: absolute;
+    width: 186px;
+    height: 77px;
+    left: 844px;
+    top: 4035px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 51px;
+    line-height: 76px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+
+#w2e{
+    position: absolute;
+    width: 335px;
+    height: 66px;
+    left: 143px;
+    top: 4152px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+    /* identical to box height */
+
+    letter-spacing: 0.1w2sem;
+
+    color: #FFFFFF;
+}
+#w2s{
+    position: absolute;
+    width: 335px;
+    height: 66px;
+    left: 1221px;
+    top: 4152px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+
 
 .foodbox1{
 
@@ -346,29 +402,67 @@ top: 4914px;
 background: url(../assets/food.jpg), #C4C4C4;
 }
 
+#mallh1{
+    position: absolute;
+    width: 136px;
+    height: 66px;
+    left: 143px;
+    top: 5468px;
 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+
+}
 #mall1{
     position: absolute;
     width: 476px;
     height: 321px;
     left: 105px;
     top: 5622px;
-    z-index: 1;
+    z-index: 3;
     
     background: url(../assets/m.jpg), #C4C4C4;
     border-radius: 25px;
 }
+.squarea{
+    position: absolute;
+    width: 335px;
+    height: 267px;
+    left: 324px;
+    top: 5725px;
+    z-index: 1;
+
+    background: #D03F00;
+}
 
 #mall2{
     position: absolute;
-width: 476px;
-height: 321px;
-left: 734px;
-top: 5622px;
-z-index: 1;
+    width: 476px;
+    height: 321px;
+    left: 734px;
+    top: 5622px;
+    z-index: 3;
 
-background: url(../assets/m.jpg), #C4C4C4;
-border-radius: 25px;
+    background: url(../assets/m.jpg), #C4C4C4;
+    border-radius: 25px;
+}
+.squareb{
+    position: absolute;
+    width: 335px;
+    height: 267px;
+    left: 936px;
+    top: 5725px;
+    z-index:1;
+
+    background: #D03F00;
 }
 #mall3{
 position: absolute;
@@ -381,32 +475,39 @@ z-index: 1;
 background: url(../assets/m.jpg), #C4C4C4;
 border-radius: 25px
 }
-.squarea{
-    position: absolute;
-    width: 335px;
-    height: 267px;
-    left: 324px;
-    top: 5725px;
-    z-index: 3;
-    
-    background: #D03F00;
-}
-.squareb{
-    position: absolute;
-width: 335px;
-height: 267px;
-left: 936px;
-top: 5725px;
-z-index: 3;
-
-background: #D03F00;
-}
 .squarec{
     position: absolute;
     width: 335px;
     height: 267px;
     left: 1559px;
     top: 5725px;
-    z-index: 3;
-    background: #D03F00;  
+
+    background: #D03F00;
+}
+#transp{
+    position: absolute;
+    width: 250px;
+    height: 66px;
+    left: 143px;
+    top: 6172px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+
+}
+#carouselbus{
+    position: absolute;
+    width: 1920px;
+    height: 240px;
+    left: 0px;
+    top: 6299px;
+
 }
