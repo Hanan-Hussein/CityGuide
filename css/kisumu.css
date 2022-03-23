@@ -11,3 +11,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.col-4{
+    column-gap: 10px;
+    height: 629px;
+}
