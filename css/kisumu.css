@@ -16,6 +16,9 @@
     height: 629px;
 }
 body{
-    background-color: white;
-    color: black;
+    background-color: black;
+    
+}
+.history{
+    color:white;
 }
