@@ -8,6 +8,15 @@ body {
   background: black;
   color: #ffffff;
 }
+h1, h2, h3, p, a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
 
 .topnav {
   overflow: hidden;
@@ -18,7 +27,7 @@ body {
 .topnav a {
   text-decoration: none;
   font-style: normal;
-  font-size: 15px;
+  font-size: 17px;
   color: #ffffff;
   float: right;
   text-align: center;
@@ -31,16 +40,25 @@ body {
   color: black;
 }
 .welcome-image {
-  width: 40vh;
+  position: relative;
+  width: 100%;
+  height:100%;
+  border-radius:8px;
+  
+
   z-index: 2;
 }
-.frameImage1 {
-  height: 30vh;
+.orangerectangle {
+  height: 100vh;
   position: absolute;
-  top: 10rem;
-  left: 0rem;
+  padding-left: 10%;
+  
+  
+ 
+
   z-index: -1;
 }
+
 
 .show-1,
 .show-2,
@@ -49,11 +67,35 @@ body {
   display: none;
 }
 
-.carousel-1 {
+/* .carousel-1 {
   width: 100%;
+} */
+
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
 }
 
+.map-responsive iframe{
 
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
 
 
 @media only screen and (max-width: 600px) {
