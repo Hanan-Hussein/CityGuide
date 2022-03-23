@@ -1,51 +1,513 @@
-.square1 {
-    position: absolute;
-    width: 392px;
-    height: 313px;
-    left: 1452px;
-    top: 454px;
-    z-index: 1;
-
-    background: #D03F00;
-}
-.square2{
-
-    position: absolute;
-    width: 392px;
-    height: 313px;
-    left: 1213px;
-    top: 229px;
-    z-index: 1;
-    background: #D03F00;
-} 
-.welcome-image {
-
-position: absolute;
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    .topnav {
+        overflow: hidden;
+        background-color: black;
+        position: sticky;
+    }
+    
+    .topnav a {
+        text-decoration: none;
+        font-style: normal;
+        font-size: 15px;
+        color: #FFFFFF;
+        float: right;
+        text-align: center;
+        padding: 14px 16px;
+        font: size 17px;
+    }
+    
+    .topnav a:hover {
+        background-color: #FF5108;
+        color: black;
+    }
+    
+    .square1 {
+        position: absolute;
+        width: 392px;
+        height: 313px;
+        left: 1452px;
+        top: 454px;
+        z-index: 1;
+        background: #D03F00;
+    }
+    
+    .rectangleFrame {
+        position: relative;
+        z-index: -1;
+    }
+    
+    .frameImage1 {
+        height: 30vh;
+        position: absolute;
+        top: -1rem;
+        left: 0rem;
+        z-index: -1;
+    }
+    
+    .square2 {
+        position: absolute;
+        width: 392px;
+        height: 313px;
+        left: 1213px;
+        top: 229px;
+        z-index: 1;
+        background: #D03F00;
+    }
+    
+    .welcome-image {
+        width: 50vh;
+        z-index: 2;
+        /* position: absolute;
 width: 550px;
 height: 471px;
 left: 1257px;
 top: 263px;
-z-index: 3;
-
-}
-
-.welc {
-position: relative;
-width: 415px;
-height: 203px;
-left: 230px;
-top: 251px;
-
+z-index: 3; */
+    }
+    
+    #welch1 {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 70px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+    }
+    
+    #welcomep {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.2em;
+        color: #FFFFFF;
+    }
+    
+    .mombasa-text {
+        color: #FF5108;
+    }
+    
+    #history {
+        position: absolute;
+        left: 181px;
+        top: 1347px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 51px;
+        line-height: 76px;
+        /* identical to box height */
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+    }
+    
+    #hp1 {
+        position: absolute;
+        width: 693px;
+        height: 339px;
+        left: 181px;
+        top: 1491px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.35em;
+        color: #FFFFFF;
+    }
+    
+    #hp2 {
+        position: absolute;
+        width: 693px;
+        height: 339px;
+        left: 181px;
+        top: 1865px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.35em;
+        color: #FFFFFF;
+    }
+    
+    .rectangle {
+        position: absolute;
+        width: 552px;
+        height: 988px;
+        left: 1159px;
+        top: 1273px;
+        z-index: 1;
+        background: #D03F00;
+    }
+    
+    #histimg1 {
+        position: absolute;
+        width: 395px;
+        height: 269px;
+        left: 1030px;
+        top: 1424px;
+        z-index: 3;
+    }
+    
+    #histimg2 {
+        position: absolute;
+        width: 339px;
+        height: 412px;
+        left: 1468px;
+        top: 1424px;
+        z-index: 3;
+    }
+    
+    #histimg3 {
+        position: absolute;
+        width: 395px;
+        height: 410px;
+        left: 1030px;
+        top: 1763px;
+        z-index: 3;
+    }
+    
+    #histimg4 {
+        position: absolute;
+        width: 351px;
+        height: 302px;
+        left: 1456px;
+        top: 1871px;
+        z-index: 3;
+    }
+    /* attraction section  */
+    
+    #attract {
+        position: absolute;
+        width: 488px;
+        height: 77px;
+        left: 743px;
+        top: 2976px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 51px;
+        line-height: 76px;
+        /* identical to box height */
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+    }
+    
+    #cardimg1 {
+        position: absolute;
+        width: 405px;
+        height: 266px;
+        left: 167px;
+        top: 3226px;
+        border-radius: 27px 27px 0px 0px;
+    }
+    
+    .card-body1 {
+        position: absolute;
+        width: 405px;
+        height: 332px;
+        left: 167px;
+        top: 3492px;
+        background: rgba(255, 255, 255, 0.93);
+        border-radius: 0px 0px 27px 27px;
+    }
+    /* #cardtitle1 {
+position: absolute;
+width: 171px;
+height: 30px;
+left: 296px;
+top: 3530px;
 
 font-family: 'Roboto';
 font-style: normal;
-font-weight: 800;
-font-size: 100px;
-line-height: 70px;
-letter-spacing: 0.1em;
-color: white;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #FF5108;
 }
-.mombasa-text{
+
+#cardtext1{
+
+position: absolute;
+width: 279px;
+height: 89px;
+left: 230px;
+top: 3588px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #111111;
+
+}
+
+#cardbtn1{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 13px 45px;
+
+position: absolute;
+width: 144px;
+height: 52px;
+left: 296px;
+top: 3715px;
+
+background: #D03F00;
+border-radius: 7px; 
+}*/
     
-    color: #FF5108;
-}
+    #cardimg2 {
+        position: absolute;
+        width: 405px;
+        height: 266px;
+        left: 784px;
+        top: 3226px;
+        border-radius: 27px 27px 0px 0px;
+    }
+    
+    .card-body2 {
+        position: absolute;
+        width: 405px;
+        height: 332px;
+        left: 784px;
+        top: 3492px;
+        background: rgba(255, 255, 255, 0.93);
+        border-radius: 0px 0px 27px 27px;
+    }
+    
+    #cardimg3 {
+        position: absolute;
+        width: 405px;
+        height: 266px;
+        left: 1405px;
+        top: 3226px;
+        border-radius: 27px 27px 0px 0px;
+    }
+    
+    .card-body3 {
+        position: absolute;
+        width: 405px;
+        height: 332px;
+        left: 1405px;
+        top: 3492px;
+        background: rgba(255, 255, 255, 0.93);
+        border-radius: 0px 0px 27px 27px;
+    }
+    
+    #hackh1 {
+        position: absolute;
+        width: 186px;
+        height: 77px;
+        left: 844px;
+        top: 4035px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 51px;
+        line-height: 76px;
+        /* identical to box height */
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+    }
+    
+    #w2e {
+        position: absolute;
+        width: 335px;
+        height: 66px;
+        left: 143px;
+        top: 4152px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 66px;
+        /* identical to box height */
+        letter-spacing: 0.1w2sem;
+        color: #FFFFFF;
+    }
+    
+    #w2s {
+        position: absolute;
+        width: 335px;
+        height: 66px;
+        left: 1221px;
+        top: 4152px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 66px;
+        /* identical to box height */
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+    }
+    
+    .foodbox1 {
+        position: absolute;
+        width: 297px;
+        height: 242px;
+        left: 162px;
+        top: 4295px;
+        background: url(../assets/food.jpg), #C4C4C4;
+    }
+    
+    .foodbox2 {
+        position: absolute;
+        width: 297px;
+        height: 242px;
+        left: 162px;
+        top: 4605px;
+        background: url(../assets/food.jpg), #C4C4C4;
+    }
+    
+    .foodbox3 {
+        position: absolute;
+        width: 297px;
+        height: 242px;
+        left: 167px;
+        top: 4914px;
+        background: url(../assets/food.jpg), #C4C4C4;
+    }
+    
+    .foodbox4 {
+        position: absolute;
+        width: 297px;
+        height: 242px;
+        left: 1221px;
+        top: 4295px;
+        background: url(../assets/food.jpg), #C4C4C4;
+    }
+    
+    .foodbox5 {
+        position: absolute;
+        width: 297px;
+        height: 242px;
+        left: 1221px;
+        top: 4605px;
+        background: url(../assets/food.jpg), #C4C4C4;
+    }
+    
+    .foodbox6 {
+        position: absolute;
+        width: 297px;
+        height: 242px;
+        left: 1226px;
+        top: 4914px;
+        background: url(../assets/food.jpg), #C4C4C4;
+    }
+    
+    #mallh1 {
+        position: absolute;
+        width: 136px;
+        height: 66px;
+        left: 143px;
+        top: 5468px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 66px;
+        /* identical to box height */
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+    }
+    
+    #mall1 {
+        position: absolute;
+        width: 476px;
+        height: 321px;
+        left: 105px;
+        top: 5622px;
+        z-index: 3;
+        background: url(../assets/m.jpg), #C4C4C4;
+        border-radius: 25px;
+    }
+    
+    .squarea {
+        position: absolute;
+        width: 335px;
+        height: 267px;
+        left: 324px;
+        top: 5725px;
+        z-index: 1;
+        background: #D03F00;
+    }
+    
+    #mall2 {
+        position: absolute;
+        width: 476px;
+        height: 321px;
+        left: 734px;
+        top: 5622px;
+        z-index: 3;
+        background: url(../assets/m.jpg), #C4C4C4;
+        border-radius: 25px;
+    }
+    
+    .squareb {
+        position: absolute;
+        width: 335px;
+        height: 267px;
+        left: 936px;
+        top: 5725px;
+        z-index: 1;
+        background: #D03F00;
+    }
+    
+    #mall3 {
+        position: absolute;
+        width: 476px;
+        height: 321px;
+        left: 1346px;
+        top: 5622px;
+        z-index: 1;
+        background: url(../assets/m.jpg), #C4C4C4;
+        border-radius: 25px
+    }
+    
+    .squarec {
+        position: absolute;
+        width: 335px;
+        height: 267px;
+        left: 1559px;
+        top: 5725px;
+        background: #D03F00;
+    }
+    
+    #transp {
+        position: absolute;
+        width: 250px;
+        height: 66px;
+        left: 143px;
+        top: 6172px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 66px;
+        /* identical to box height */
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+    }
+    
+    #carouselbus {
+        position: absolute;
+        width: 1920px;
+        height: 240px;
+        left: 0px;
+        top: 6299px;
+    }
+    
+    @media only screen and (max-width:600px) {
+        .welcome-image {
+            width: 100%;
+        }
+    }

@@ -1,0 +1,82 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        .handImg {
+            height: 50vh;
+        }
+        
+        .hand {
+            z-index: 2;
+            position: relative;
+        }
+        
+        .rectFrame {
+            height: 20vh;
+            position: absolute;
+            top: -0.9rem;
+            left: -0.5rem;
+            z-index: -1;
+        }
+        
+        .vector1 {
+            position: absolute;
+            height: 20vh;
+            right: 11rem;
+            bottom: -2rem;
+            z-index: -1;
+        }
+        
+        .cities {
+            padding-right: 6rem;
+            padding-left: 6rem;
+        }
+        
+        .res {
+            width: 100%;
+        }
+        
+        .blurry_effect {
+            filter: blur(1.3px);
+        }
+        
+        .hoverText {
+            display: none;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            /* border: #FFFFFF solid 4px; */
+            padding: 2rem;
+            font-weight: bold;
+            color: white;
+            z-index: 2;
+            background-color: rgba(0, 0, 0, .2);
+        }
+        
+        .who,
+        .mission {
+            width: 25vw;
+            padding-bottom: 3px;
+            background-color: #FF9D73;
+        }
+        
+        #portfolioImages {
+            height: 100vh;
+        }
+        
+        .mission {
+            background-color: #FF783F;
+        }
+        
+        @media only screen and (max-width:600px) {
+            * {
+                overflow-x: hidden;
+            }
+            .who,
+            .mission {
+                width: 50vw;
+            }
+        }

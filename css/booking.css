@@ -1,0 +1,14 @@
+body{
+    background-image: url("../assets/tea_fam.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-sec {
+    width: max-content;
+    text-align: center;
+}
+
+.button {
+    border-radius: 20px;
+}
