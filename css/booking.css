@@ -1,11 +1,10 @@
 body{
-    background-image: url("../assets/tea_fam.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(to right, rgb(43, 43, 95), rgb(140, 140, 190) );
+    
 }
 
-.form-sec {
-    width: max-content;
+.booking-sec {
+    color: #fff;
     text-align: center;
 }
 

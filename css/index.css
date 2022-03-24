@@ -4,8 +4,12 @@
             box-sizing: border-box;
         }
         
+        body {
+            overflow-x: hidden;
+        }
+        
         .handImg {
-            height: 50vh;
+            height: 60vh;
         }
         
         .hand {
@@ -21,11 +25,28 @@
             z-index: -1;
         }
         
+        .uber {
+            height: 20vh;
+        }
+        
+        .dhl {
+            width: 20vw;
+        }
+        
+        .btn-primary,
+        .btn-primary:focus,
+        .btn-primary:hover {
+            border: none;
+            box-shadow: none !important;
+            background-color: #D03F00;
+            color: #F6F6F6;
+        }
+        
         .vector1 {
             position: absolute;
             height: 20vh;
-            right: 11rem;
-            bottom: -2rem;
+            right: 13rem;
+            bottom: -2.5rem;
             z-index: -1;
         }
         
@@ -65,10 +86,104 @@
         
         #portfolioImages {
             height: 100vh;
+            position: relative;
+        }
+        
+        .frost {
+            position: absolute;
+            width: 50vw;
+            height: 100vh;
+            left: 0px;
+            top: 0px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.15) 100%);
+            backdrop-filter: blur(20px)
+        }
+        
+        .country {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            color: white;
+            transform: translate(-50%, -50%);
+        }
+        
+        .country p {
+            letter-spacing: 2.5rem;
+            font-weight: bolder;
+            font-size: 4.5em;
+        }
+        
+        .tagline {
+            color: #E4E1E1 !important;
+        }
+        
+        .discover {
+            position: absolute;
+            bottom: 0;
+            left: 2rem
+        }
+        
+        .ken {
+            color: #D03F00;
+        }
+        
+        .card-img-top {
+            height: 50vh
+        }
+        
+        .bgImage {
+            background-image: url('../assets/newLandingbg.png');
+            object-fit: contain;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+        
+        .navbar {
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.47) 0%, rgba(255, 255, 255, 0.08) 100%) !important;
+            z-index: 2;
         }
         
         .mission {
             background-color: #FF783F;
+        }
+        
+        .footerbg {
+            background-color: #FF783F;
+            /* min-height: 55vh; */
+            background-size: cover;
+        }
+        
+        .footerlogo {
+            margin-left: 5rem;
+            padding-top: 3rem;
+        }
+        /* .footerlist{
+            padding-right: 9rem;
+        } */
+        
+        .footerlist1 {
+            padding-right: 12rem;
+        }
+        
+        .stuff li {
+            list-style-type: none;
+        }
+        
+        .socialIconLast {
+            margin-right: .10rem;
+        }
+        
+        .socialIcon img {
+            padding-right: 30px;
+        }
+        
+        .terms {
+            margin-right: 13.5rem;
+        }
+        
+        .termsSpace {
+            padding-right: 2.2rem;
         }
         
         @media only screen and (max-width:600px) {
@@ -78,5 +193,15 @@
             .who,
             .mission {
                 width: 50vw;
+            }
+            .discover {
+                position: absolute;
+                bottom: 0;
+                left: -2rem
+            }
+            .country p {
+                /* letter-spacing: 2.5rem;
+                font-weight: bolder; */
+                font-size: 2em;
             }
         }
