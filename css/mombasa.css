@@ -60,6 +60,14 @@ p {
 }
 
 
+.showcard1, .showcard2, .showcard3 {
+    display: none;
+}
+
+.checked {
+    color: #ff5108;
+}
+
 .show-1,
 .show-2,
 .show-3,
