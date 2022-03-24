@@ -19,6 +19,7 @@ body{
     background-color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
+    overflow-x: hidden;
     
 }
 .col-sm-4{
@@ -53,6 +54,72 @@ body{
 .card.btn{
     color: brown;
 }
+.btn-success,
+.btn-success:focus,
+.btn-success:hover{
+
+    border: none;
+    box-shadow: none !important;
+    background-color: #FF783F;
+    color: #F6F6F6;            
+}
 h1, h2{
     color: #000000;
+}
+.footerbg {
+    background-color: #FF783F;
+    /* min-height: 55vh; */
+    background-size: cover;
+}
+
+.footerlogo {
+    margin-left: 5rem;
+    padding-top: 3rem;
+}
+/* .footerlist{
+    padding-right: 9rem;
+} */
+
+.footerlist1 {
+    padding-right: 12rem;
+}
+
+.stuff li {
+    list-style-type: none;
+}
+
+.socialIconLast {
+    margin-right: .10rem;
+}
+
+.socialIcon img {
+    padding-right: 30px;
+}
+
+.terms {
+    margin-right: 13.5rem;
+}
+
+.termsSpace {
+    padding-right: 2.2rem;
+}
+
+@media only screen and (max-width:600px) {
+    * {
+        overflow-x: hidden;
+    }
+    .who,
+    .mission {
+        width: 50vw;
+    }
+    .discover {
+        position: absolute;
+        bottom: 0;
+        left: -2rem
+    }
+    .country p {
+        /* letter-spacing: 2.5rem;
+        font-weight: bolder; */
+        font-size: 2em;
+    }
 }
