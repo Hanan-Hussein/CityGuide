@@ -6,7 +6,7 @@ $(document).ready(function(){
         
     });*/
     $("#attraction").children().children().hover(function(){
-        $(".card-text", this).toggle();
+        $("#hide", this).toggle();
         $(" img", this).toggleClass("on-hover");
     
     
