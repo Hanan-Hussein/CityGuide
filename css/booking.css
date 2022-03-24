@@ -1,0 +1,13 @@
+body{
+    background-image: linear-gradient(to right, rgb(43, 43, 95), rgb(140, 140, 190) );
+    
+}
+
+.booking-sec {
+    color: #fff;
+    text-align: center;
+}
+
+.button {
+    border-radius: 20px;
+}
