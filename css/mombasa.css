@@ -19,13 +19,13 @@ p {
 }
 
 
-.topnav {
+/* .topnav {
   overflow: hidden;
   background-color: black;
   position: sticky;
-}
+} */
 
-.topnav a {
+/* .topnav a {
   text-decoration: none;
   font-style: normal;
   font-size: 17px;
@@ -34,12 +34,13 @@ p {
   text-align: center;
   padding: 14px 16px;
   font: size 17px;
-}
+} */
 
-.topnav a:hover {
+/* .topnav a:hover {
   background-color: #ff5108;
   color: black;
-}
+} */
+
 
 /* .ferryLink a:hover {
     background-color: #ff5108;
