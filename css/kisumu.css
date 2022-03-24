@@ -6,23 +6,23 @@
 .bg{
     background: url(../assets/kisumh.jpg);
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .col-4{
-    column-gap: 10px;
-    height: 629px;
+    column-gap: 5px;
+
 }
 body{
-    background-color: black;
+    background-color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     
 }
 .history{
-    color:white;
+    color:black;
 }
 .on-hover{
     filter: blur(1.3);
@@ -31,5 +31,5 @@ body{
     color: brown;
 }
 h1, h2{
-    color: white;
+    color: #000000;
 }
