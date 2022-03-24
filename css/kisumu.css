@@ -6,7 +6,7 @@
 .bg{
     background: url(../assets/kisumh.jpg);
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,4 +14,22 @@
 .col-4{
     column-gap: 10px;
     height: 629px;
+}
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    
+}
+.history{
+    color:white;
+}
+.on-hover{
+    filter: blur(1.3);
+}
+.card.btn{
+    color: brown;
+}
+h1, h2{
+    color: white;
 }

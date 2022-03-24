@@ -7,3 +7,7 @@ function Booking(firstName, lastName,phone, email, date){
 }
 
 const myBookings = [];
+
+$(document).ready(function(){
+    
+})
