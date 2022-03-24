@@ -5,8 +5,10 @@ $(document).ready(function(){
         $("body").css("background", "color:white;");
         
     });*/
-    $(".card img").click(function(){
-        $("#hide").hide();
-        $("#hide").show();
+    $("#attraction").children().children().hover(function(){
+        $(".card-text", this).toggle();
+        $(" img", this).toggleClass("on-hover");
+    
+    
     });
 });
