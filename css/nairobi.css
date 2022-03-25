@@ -1,140 +1,154 @@
-*{
+* {
     padding: 0;
     margin: 0;
-   
 }
-body{
- 
+
+body {
     background-color: white;
+    color: black;
     overflow-x: hidden;
 }
-.beauty{
-   display: flex; 
-   padding-top: 5%;
-   padding-left: 5%;
-   
+
+.beauty {
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
 }
-.beauty img{
+
+.beauty img {
     padding-left: 20%;
 }
 
-.des{
+.des {
     padding-top: 3%;
     padding-left: 5%;
 }
-.hist h3{
+
+.hist h3 {
     padding-top: 10%;
-  
     font-weight: bold;
     font-size: 25px;
 }
-.img1{
-  margin-left:15% ;
-  padding-top: 15%;
+
+.img1 {
+    margin-left: 15%;
+    padding-top: 15%;
 }
-.img2{
-    padding-left:85% ;
+
+.img2 {
+    padding-left: 85%;
     padding-top: 3%;
 }
-.img3{
-    margin-left:25% ;
+
+.img3 {
+    margin-left: 25%;
     padding-top: 3%;
 }
-.sec2{
+
+.sec2 {
     display: flex;
 }
-.short{
+
+.short {
     padding-left: 40%;
     padding-top: 5%;
     margin-left: 3%;
 }
-.attraction h3{
+
+.attraction h3 {
     padding-top: 10%;
-  
     font-weight: bold;
     font-size: 25px;
 }
-.hacks h3{
+
+.hacks h3 {
     padding-top: 7%;
-   
 }
+
 .hacks {
     /* padding-left: 4%; */
     padding-top: 5%;
-   /* margin-left: 15%; */
+    /* margin-left: 15%; */
 }
-.sty{
+
+.sty {
     padding-left: 2%;
     padding-top: 5%;
 }
-.sty{
-  
-        border: 2px solid rgb(170, 166, 166);
-        border-radius: 16px;
-        background-color:white; 
-        width: 300px;
-        height: 400px;
-      
+
+.sty {
+    border: 2px solid rgb(170, 166, 166);
+    border-radius: 16px;
+    background-color: white;
+    width: 300px;
+    height: 400px;
 }
+
 .row1 {
     justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
 }
-.row2{
+
+.row2 {
     justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-.malls{
+.malls {
     padding-top: 10%;
 }
-.bus{
+
+.bus {
     padding-left: 5%;
 }
-.contact{
+
+.contact {
     height: 353px;
-    background-color:rgb(255, 115, 0) ;
+    background-color: rgb(255, 115, 0);
     color: white;
     margin-top: 15%;
 }
 
-
-
-.con h2{
+.con h2 {
     text-align: center;
-    padding-top: 3%;    
+    padding-top: 3%;
 }
-.loc{
+
+.loc {
     display: flex;
     justify-content: center;
     align-content: center;
     padding-top: 3%;
 }
 
- .last{
+.last {
     text-align: center;
     padding-top: 3%;
-} 
-.lora{
+}
+
+.lora {
     margin-right: 10%;
 }
-.pic{
+
+.pic {
     margin-left: 10%;
 }
-.btn{
+
+.btn {
     width: 100px;
     height: 35px;
-    color:rgb(19, 18, 18) ;
+    color: rgb(19, 18, 18);
     background-color: #f05e32;
     font-size: 15px;
     border-radius: 10px;
 }
-.btn:hover{
-    background-color: rgb(230, 212, 212);
 
+.btn:hover {
+    background-color: rgb(230, 212, 212);
 }
+
 .footerbg {
     background-color: #FF783F;
     background-size: cover;
@@ -144,7 +158,6 @@ body{
     margin-left: 5rem;
     padding-top: 3rem;
 }
-
 
 .footerlist1 {
     padding-right: 12rem;
@@ -174,39 +187,25 @@ body{
     * {
         overflow-x: hidden;
     }
-      
-    
 }
-.map-responsive{
 
-    overflow:hidden;
-
+.map-responsive {
+    overflow: hidden;
     padding-bottom: 25%;
-
-    position:relative;
-
-    height:0;
-
+    position: relative;
+    height: 0;
 }
 
-.map-responsive iframe{
-
-    left:25%;
-
-    top:5%;
-
-    height:100%;
-
-    width:50%;
-
-    position:absolute;
-    
-
+.map-responsive iframe {
+    left: 25%;
+    top: 5%;
+    height: 100%;
+    width: 50%;
+    position: absolute;
 }
-
 
 @media only screen and (max-width: 600px) {
-  .welcome-image {
-    width: 100%;
-  }
+    .welcome-image {
+        width: 100%;
+    }
 }
