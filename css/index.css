@@ -63,6 +63,10 @@
             filter: blur(1.3px);
         }
         
+        .beach {
+            color: #111111;
+        }
+        
         .hoverText {
             display: none;
             position: absolute;
