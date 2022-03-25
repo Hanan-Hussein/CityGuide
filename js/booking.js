@@ -9,6 +9,7 @@ function Booking(firstName, lastName, phone , email, destination, startDate, end
 }
 
 const myBookings = [];
+const myBooking = ""
 
 $(document).ready(function(){
     $(".tour-booking").on('click', (e)=>{
@@ -19,12 +20,14 @@ $(document).ready(function(){
         let email = $("#email").val();
         let destination = $("#destination").val();
         let startDate = $("start-date").val();
-        let endDate = $("end-date").val();
-        const bookedTour = new Booking(firstName,lastName,phone,email,destination,startDate,endDate);
-        myBookings.push(bookedTour);
+        let endDate = new Date($("end-date").val());
+        const myBooking = new Booking(firstName,lastName,phone,email,destination,startDate,endDate);
+        console.log(startDate);
+        let markup = `<tr><td>${myBooking.phone}</td><td>${myBooking.email}</td><td>${myBooking.destination}</td><td>${myBooking.startDate}</td><td>${myBooking.endDate}</td></tr>`
+        console.log(markup);
+        $("table tbody").append(markup);
+        myBookings.push(myBooking);
     })
 
-    $(".tour-booking").on('click',()=>{
-        
-    })
+    
 })
